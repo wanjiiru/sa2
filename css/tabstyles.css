@@ -1,0 +1,58 @@
+
+.tabs-style-topline {
+	max-width: 1200px;
+}
+
+.tabs-style-topline nav li {
+	border: 1px solid rgba(40,44,42,0.1);
+        background: #cccccc;
+        text-decoration: none !important;
+	height:  90px;
+}
+
+.tabs-style-topline nav li:not(:last-child) {
+	border-right: none;
+}
+
+.tabs-style-topline nav li.tab-current {
+	border-bottom: none;
+        background: white;
+        color: #F15A29;
+        text-decoration: none !important;
+}
+
+.tabs-style-topline nav a {
+	padding: 0.65em 0 0.5em;
+        color: #333333;
+        margin-top: 30px;
+	line-height: 1;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.tabs-style-topline nav a:hover,
+.tabs-style-topline nav a:focus {
+	color: white;
+        color: #F15A29;
+        text-decoration: none !important;
+}
+
+.tabs-style-topline nav li.tab-current a {
+	background: none;
+        color: #F15A29;
+}
+
+.tabs-style-topline .icon::before {
+	display: block;
+	margin: 0;
+}
+
+.tabs-style-topline nav a span {
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.tabs-style-topline .content-wrap {
+	background: #fff;
+}

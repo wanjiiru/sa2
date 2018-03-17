@@ -1,0 +1,469 @@
+.landing-section {
+    padding-bottom : 30px;
+    background: url(assets/backgrounds/landing.jpg) no-repeat;
+}
+
+.bold-text-with-my-theme-color{
+    font-weight: bold;
+    font-size: 14pt;
+    color: #F15A29;
+}
+
+.bold-text-with-my-theme-color-san-serif{
+    font-family: PT Sans;
+    font-weight: bold;
+    font-size: 14pt;
+    color: #F15A29;
+}
+
+
+.paragraph{
+    font-size: 12pt;
+    font-family: 'Monda', sans-serif;
+}
+
+.nowrap {
+    white-space: nowrap ;
+}
+
+body{
+    font-family: 'PT Serif Caption' !important;
+    color:#4d4d4d;
+}
+
+.my-container {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.no-padding{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.white-text{
+    color: white;
+}
+
+.happy-hour{
+    height: 101.7px;
+    width: 100%;
+    margin: 0px;
+    background: transparent;
+    color: black;
+    font-weight: 200;
+}
+
+.party-time{
+    height: 101.7px;
+    width: 100%;
+    margin: 0px;
+    background: #F15A29;
+    color: white;
+    font-weight: 200;
+}
+
+.section {
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-content : center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.section-customers {
+    background: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-content : center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.nav-bar li a{
+    font-size: 18pt;
+    color: black;
+    font-family: 'Monda', sans-serif;
+}
+
+.menu {
+    background: url(assets/backgrounds/foodsBg.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-content : center;
+    padding-left: 190px;
+    padding-right: 150px;
+    margin: auto;
+}
+
+.footer {
+    background: #F15A29;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-content : center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.order {
+    background: url(assets/backgrounds/subscribe.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-content : center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.section-padding {
+    padding: 100px;
+}
+
+.fast-foods{
+    margin-top: 100px;	
+    margin-bottom:  100px;	
+}
+
+.fast-foods-card{
+    padding: 20px;
+}
+
+.customers-card{
+    width: 100%;
+    padding: 20px;
+}
+
+.drinks-card{
+    padding: 20px;
+    display: flex;
+}
+
+.drinks-details{
+    margin-left: 200px;
+}
+
+div.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer .social {
+    display: block;
+    margin-top: 30px;
+}
+footer .social a {
+    margin: 0 8px;
+    padding: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+footer .social a i {
+    width: 1em;
+}
+.btn-primary {
+    color: #F15A29;
+    background-color: transparent;
+    border-color: #F15A29;
+}
+
+
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #F15A29;
+    border-color: #fff;
+}
+
+.my-primary-text{
+    color: #F15A29;
+}
+
+.section-heading {
+    margin: 20px 0 30px;
+    text-align: center;
+}
+.section-heading h1 {
+    display: inline-block;
+    font-size: 55px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.section-heading p {
+    font-size: 25px;
+    color: #999999;
+    font-weight: 300;
+}
+.section-heading .divider:after {
+    content: "";
+    position: relative;
+    height: 4px;
+    width: 60px;
+    display: block;
+    text-align: center;
+    margin: 13px auto;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    -ms-border-radius: 5em;
+    -o-border-radius: 5em;
+    border-radius: 5em;
+}
+.section-heading.inverse h1,
+.section-heading.inverse p {
+    color: #ffffff;
+}
+.section-heading.inverse .divider:after {
+    background: #ffffff;
+}
+
+.carousel-control .icon-prev{
+    left: 0px
+}
+.carousel-control .icon-next{
+    right: 0px
+}
+
+.fullspanimage{
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.my-container:hover .image {
+    opacity: 0.7;
+}
+
+.my-container:hover .middle .text{
+    color: black;
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 22pt;
+    padding: 16px 32px;
+    font-family: 'PT Serif Caption' !important;
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+ul.thumbnails { 
+    list-style: none; 
+    padding: 10px;
+}
+
+.my-item{
+    margin: 30px;
+}
+
+.no-width{
+    width: 10px;
+}
+
+.my-item-customers{
+    margin: 0px;
+}
+
+.table {
+    border-bottom:0px !important;
+    width: 10% !important;
+    margin: 0px auto;
+}
+.table th, .table td {
+    border: 1px !important;
+}
+.fixed-table-container {
+    border:0px !important;
+}
+
+.caption-box h4 {
+    font-size: 0.94rem;
+    color: #444;
+}
+.caption-box p {
+    font-size: 0.75rem;
+    color: #999;
+}
+.btn.btn-mini {
+    font-size: 0.63rem;
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+.center-block {
+    width:250px;
+    padding:10px;
+}
+.email-input{
+    display: inline !important;
+    background:rgba(255,255,255,0.1);
+    opacity: 1;
+    color: white;
+    height: 50px;
+    width: 40%;
+    margin-right: 20px; 
+}
+
+.btn-subscribe{
+    color: #fff;
+    background-color: #F15A29;
+    border-color: #F15A29;
+    width: 30%;
+    left: 0px;
+    height: 50px;
+}
+
+
+.footer-icon{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* Control box 
+------------------------------------------------ */
+.control-box {
+    width: 100%;
+}
+
+.social{
+    margin: 10px;
+}
+.carousel-control{
+    background : transparent !important;
+    color: #F15A29;
+    display: inline-block;
+    font-size: 50px !important;
+    opacity: 1;
+    margin-right: -50px;
+    margin-left: -40px;
+    margin-top: 120px;
+    text-shadow: none !important;
+}
+.carousel-control-customers{
+    background : transparent !important;
+    color: #F15A29;
+    display: inline-block;
+    font-size: 50px !important;
+    opacity: 1;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: -60px;
+    text-shadow: none !important;
+}
+
+.carousel{
+    margin: auto;
+    width: 100%;
+}
+
+.my-na-bar-menu{
+    width: 100%;
+    background-color: #F15A29;
+}
+
+.row.vdivide [class*='col-sm']:not(:last-child):after {
+    background: #e0e0e0;
+    width: 1px;
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    min-height: 70px;
+}
+
+.karma-font-narrow-white{
+    font-weight: 100;
+    color: white;
+}
+
+.karma-font-normal-white{
+    color: white;
+    font-weight: normal;
+}
+
+.karma-font-normal-black{
+    color: 333333;
+    font-weight: normal;
+}
+
+.karma-font-bold-white{
+    font-weight: bold;
+    color: white;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+#main_nav {
+    background: #F15A29;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+#main_nav:target {
+    display: block;
+}
+
+.access_aid {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: : 0;
+    width: 100px;
+    height: 0;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-top: 40px;
+    overflow: hidden;
+    border: 0px solid #ccc;
+    background: transparent 10px 10px / 20px 20px no-repeat;
+}
+
+#access_nav {
+    background-image: -webkit-repeating-linear-gradient( #ccc 2px, #fff 2px, #fff 4px);
+    background-size: 50% 50%;
+    background-image: linear-gradient(to bottom, #fff 0%, #fff 10%, transparent 10%, transparent 40%, #fff 40%, #fff 50%, transparent 50%, transparent 90%, #fff 90%, #fff 100%);
+}

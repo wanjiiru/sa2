@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/tabs.css" />
+        <link rel="stylesheet" href="css/tabstyles.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css?family=PT Serif Caption:100,200,300">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:100,200,300">
+        <link href='https://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet' type='text/css'>
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-65318987-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <!-- End Google Analytics -->
+
+    </head>
+    <body>
+        <section id="landing-section" class="landing-section">
+            <p><a href="#main_nav" id="access_nav" class="access_aid">open</a></p>
+            <nav id="main_nav" class="main_nav text-center">
+                <ul class="nav navbar-nav nav-bar">
+                    <li><a href="#">CONTACTS</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">MENU</a></li>
+                </ul>
+                <p><a href="#body" id="access_top" class="access_aid">close</a></p>
+            </nav>
+            <div class="container text-center bitter-font">
+                <p>
+                    <img style="margin-top: 70px" src="assets/logoBig.png" alt=""/> <br/>
+                    <span class="h1 karma-font-narrow-white">We Provide The Best Food</span><br/>
+                    <span class="h1 karma-font-narrow-white">At The</span>
+                    <span class="h1 nowrap karma-font-bold-white"> Right Price.</span>
+                </p>
+            </div>
+        </section>
+        <div id="happyhour" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+                        <h2 class="modal-title my-primary-text" id="myModalLabel">Happy Hour</h2>
+                    </div>
+                    <div class="modal-body paragraph">
+                        During happy hour, our customers gets a 10% dicounts on each order that is above 2000.
+                    </div>
+                    <div class="modal-footer">
+                        <button style="font-family: Roboto !important; font-weight: normal" type="button" name="submit"  data-dismiss="modal" class="btn btn-primary btn-lg text-uppercase">Find out More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="partytime" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;  </button>
+                        <h2 class="modal-title my-primary-text" id="myModalLabel">Party time</h2>
+                    </div>
+                    <div class="modal-body paragraph">
+                        We help our estemmed customers to hold parties like birthday parties. We offers space, food and all services in a party.
+                    </div>
+                    <div class="modal-footer">
+                        <button style="font-family: Roboto !important; font-weight: normal" type="button" name="submit"  data-dismiss="modal" class="btn btn-primary btn-lg text-uppercase">Find out More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="imagemenu">
+            <div class="container" style="width: 100%;">
+                <div class="row">
+                    <div class="col-sm-3 no-padding text-center">
+                        <div data-toggle="modal" data-target="#happyhour" class="row happy-hour">
+                            <h1>Happy Hour</h1>
+                        </div>
+                        <div data-toggle="modal" data-target="#partytime" class="row party-time">
+                            <h1>Party Time</h1>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 no-padding">
+                        <div class="container my-container">
+                            <img class="image" src="assets/foodtop/breakfast.jpg" alt=""/>
+                            <div class="middle">
+                                <div class="text">Breakfast</div>
+                            </div> 					
+                        </div>
+                    </div>
+                    <div class="col-sm-3 no-padding">
+                        <div class="container my-container">
+                            <img class="image" src="assets/foodtop/lunch.jpg" alt=""/>
+                            <div class="middle">
+                                <div class="text">Lunch</div>
+                            </div> 					
+                        </div>
+                    </div>
+                    <div class="col-sm-3 no-padding">
+                        <div class="container my-container">
+                            <img class="image" src="assets/foodtop/dinner.jpg" alt=""/>
+                            <div class="middle">
+                                <div class="text">Dinner</div>
+                            </div> 					
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="row fast-foods text-left" id="fastfoods">
+                <div class="col-md-6">
+                    <!--Card-->
+                    <div class="card fast-foods-card">
+                        <img class="fullspanimage fullspanimage" src="assets/fastFood1.jpg" alt="fastFood1">
+                        <img class="fullspanimage fullspanimage" src="assets/fastFood2.jpg" alt="fastFood2">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!--/.Card-->
+                    <div class="mb-30" style="padding-left: 80px">
+                        <div class="h2 font-weight-bold">Fast Foods</div><br/>
+                        <h4 class="font-weight-bold">You will love our delicious fast foods.</h4><br/>
+                        <p class="karma-font-normal-black text-left paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><!-- /.featured-item -->
+                        <br/>
+                        <br/>
+                        <button style="font-family: Roboto !important; font-weight: bold" type="submit" name="submit" class="btn btn-primary btn-lg text-uppercase">View Gallery</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row fast-foods text-right" id="fastfoods">
+                <div class="col-md-6">
+                    <!--/.Card-->
+                    <div class="mb-30" style="padding-right: 80px">
+                        <h1 class="font-weight-bold">Drinks</h1>
+                        <br/>
+                        <h4 class="font-weight-bold">We also produce delicious drinks..</h4><br/>
+                        <p class="text-right paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <button style="font-family: Roboto !important; font-weight: bold" type="submit" name="submit" class="btn btn-primary btn-lg text-uppercase">View Gallery</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card drinks-card">
+                                    <img class="img-responsive fullspanimage" src="assets/drink1.jpg" alt="drink1"/>
+                                    <img class="img-responsive fullspanimage" src="assets/drink2.jpg" alt="drink1"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="row menu" id="menu">
+            <div class="tabs tabs-style-topline">
+                <nav>
+                    <ul>
+                        <li><a href="#fastfoodssect"><span>Fast Food</span></a></li>
+                        <li><a href="#drinks"><span>Drinks</span></a></li>
+                        <li><a href="#chicken"><span>Chicken</span></a></li>
+                        <li><a href="#rice"><span>Rice</span></a></li>
+                    </ul>
+                </nav>
+                <div class="content-wrap">
+                    <section id="fastfoodssect">
+                        <div class="row">
+                            <div class="col-sm-12">
+
+                                <div id="myCarousel" class="row carousel slide text-center" data-ride="carousel">
+
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+
+                                        <div class="item active">
+
+                                            <ul class="thumbnails">
+
+                                                <li class="col-sm-3 my-item">
+                                                    <img src="assets/fastfood/chickenBurger.jpg" alt="Card image cap">
+                                                    <h4 class="my-primary-text">Chicken Burger</h4>
+                                                </li>
+
+                                                <li class="col-sm-3 my-item">
+                                                    <img src="assets/fastfood/beefBurger.jpg" alt="Card image cap">
+                                                    <h4 class="my-primary-text">Beef Burger</h4>
+                                                </li>
+
+                                                <li class="col-sm-3 my-item">
+                                                    <img src="assets/fastfood/chickenPizza.jpg" alt="Card image cap">
+                                                    <h4 class="my-primary-text">Chicken Pizza</h4>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Slide1 -->
+
+                                    </div>
+                                    <!-- /Wrapper for slides .carousel-inner -->
+
+                                    <!-- Control box -->
+                                    <div class="control-box">
+                                        <a data-slide="prev" href="#myCarousel" class="material-icons carousel-control left">chevron_left</a>
+                                        <a data-slide="next" href="#myCarousel" class="material-icons carousel-control right">chevron_right</a>
+                                    </div>
+                                    <!-- /.control-box -->
+
+                                </div>
+                                <!-- /#myCarousel -->
+
+                            </div>
+                            <!-- /.col-sm-12 -->
+                        </div>
+                        <!-- /.container -->
+                    </section>
+                    <section id="drinks">
+
+                    </section>
+                    <section id="chicken"><p>3</p></section>
+                    <section id="rice"><p>4</p></section>
+                </div><!-- /content -->
+            </div><!-- /tabs -->
+        </div>
+
+        <section class="section-customers">
+            <div class="row text-center" id="customers">
+                <div class="card customers-card">
+                    <div class="container">
+                        <div class="row vdivide">
+                            <div class="col-sm-7">
+                                <h2 class="bold-text-with-my-theme-color">Our happy Customers</h2>
+                                <h5 style="font-weight: bold">George Richard</h5>
+                                <p class="paragraph">Great food! Menu is awesome, their foods are not only great but alos in the right price. I'ill highly recomend them :)
+                                </p>
+                                <div id="customerscourosel" class="row carousel slide text-center" data-ride="carousel">
+
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+
+                                        <div class="item active">
+
+                                            <ul class="thumbnails">
+
+                                                <li class="col-xs-3 my-item-customers">
+                                                    <img src="assets/customers/p1.png" alt="Card image cap">
+                                                </li>
+
+                                                <li class="col-xs-3 my-item-customers">
+                                                    <img src="assets/customers/p2.png" alt="Card image cap">
+                                                </li>
+
+                                                <li class="col-xs-3 my-item-customers">
+                                                    <img src="assets/customers/p3.png" alt="Card image cap">
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Slide1 -->
+
+                                    </div>
+                                    <!-- /Wrapper for slides .carousel-inner -->
+
+                                    <!-- Control box -->
+                                    <div class="control-box">
+                                        <a data-slide="prev" href="#customerscourosel" class="material-icons carousel-control-customers left">chevron_left</a>
+                                        <a data-slide="next" href="#customerscourosel" class="material-icons carousel-control-customers right">chevron_right</a>
+                                    </div>
+                                    <!-- /.control-box -->
+
+                                </div>
+                            </div>
+                            <div class="col-sm-5">
+                                <h2 class="bold-text-with-my-theme-color-san-serif">About Menu</h2>
+                                <p class="paragraph">We are a team of 7 members. <br/>Wewf asmfaskjfa faskfjafd <br/>askfajsfklaf nasifdjaskldfas faksfdjakjdfas<br/>
+                                    dfaskfdjaksjfda sfkakfjdklasjfdasd<br/> fgakskgjaig adfkgjidsfjgh riotrejite fdfnasdfoiag <br/>
+                                    aidgfjaoijdgadlklgjsdkfg sdfgiafgiaigfjiadf</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="order text-center">
+            <div class="row">
+                <h1 class="white-text">
+                    Get our daily food items delivered to your email.
+                </h1>
+
+
+                <form method="POST" action="./php/order.php">
+                    <tr class="my-row text-center">
+                        <td>
+                            <input id="email" type="text" class="email-input form-control" name="email" placeholder="Your Email"/>
+                            <input type="text" value="pending" id="status" name="status" hidden/>
+                        </td>
+                        <td>
+                            <button type="subscribe" name="subscribe" class="btn btn-subscribe btn-lg">Subscribe</button>
+                        </td>
+                    </tr>
+                </form> 
+
+
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <table class="table">
+                        <tr class="my-row">
+                            <td><img class="footer-icon" src="assets/footerlogos/logo_white.png" /></td>
+                            <td><h1 class="white-text">
+                                    MENU
+                                </h1></td>
+                        </tr>	
+                    </table>
+
+                </div>
+                <div class="row text-center">
+                    <h4 style="font-family: 'Monda', sans-serif" class="white-text">
+                        Thats What We Are.
+                    </h4>
+                </div>
+                <div class="row text-center">
+                    <tr>
+                        <td><img class="social" src="assets/footerlogos/facebook.png" /></td>
+                        <td><img class="social" src="assets/footerlogos/twitter.png" /></td>
+                        <td><img class="social" src="assets/footerlogos/pinterest.png" /></td>
+                    </tr>
+                </div>
+                <div class="row text-center">
+                    <h5 style="font-family: Roboto !important; font-size: 12pt" class="white-text">
+                        2016 Menu Restaurant.
+                    </h5>
+                </div>
+            </div>
+        </section>
+
+
+
+        <script src="js/cbpFWTabs.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#clients-slider").carousel({
+                    interval: 2000 //TIME IN MILLI SECONDS
+                });
+            });
+        </script>
+        <script>
+            (function () {
+
+                [].slice.call(document.querySelectorAll('.tabs')).forEach(function (el) {
+                    new CBPFWTabs(el);
+                });
+
+            })();
+        </script>
+        <script src="js/mc-submit.js"></script> 
+    </body>
+</html> 
