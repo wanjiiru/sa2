@@ -1,8 +1,8 @@
 <?php
 //fill in these values for with your own information
-$api_key = '718c834d1507cbfb1d0cf9ff170744e4-us12';
-$datacenter = 'us12';
-$list_id = '71254f6be3';
+$api_key = "a9299bd6d38a5b14bd4c663afc4f8a8f-us16";
+$datacenter = 'us16';
+$list_id = '0ea254995e';
 $email = $_POST['email'];
 $status = 'pending';
 if(!empty($_POST['status'])){
